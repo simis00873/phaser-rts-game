@@ -1,11 +1,11 @@
 import 'phaser';
 
-import { SimpleScene } from './scenes/simple-scene';
+import { MapScene } from './scenes/map';
 
 const gameConfig = {
   width: 1024,
   height: 768,
-  scene: SimpleScene
+  scene: MapScene
 };
 
 new Phaser.Game(gameConfig);

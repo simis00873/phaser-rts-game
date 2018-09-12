@@ -57,6 +57,7 @@
          "imageheight":448,
          "imagewidth":1152,
          "margin":0,
+         "image": "scifi_tilesheet.png",
          "name":"scifi_tilesheet",
          "spacing":0,
          "tilecount":126,
