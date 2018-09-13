@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "server": "yarn run webpack-dev-server",
+    "build": "yarn run webpack"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
@@ -15,6 +19,7 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
+    "easystarjs": "^0.4.3",
     "phaser": "^3.12.0"
   }
 }
