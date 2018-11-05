@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "server": "yarn run webpack-dev-server",
-    "build": "yarn run webpack"
+    "build": "yarn run webpack",
+    "heroku-postbuild": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "easystarjs": "^0.4.3",
+    "express": "^4.16.4",
     "phaser": "^3.12.0"
   }
 }
