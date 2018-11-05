@@ -4,9 +4,10 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "start": "node server.js",
     "server": "yarn run webpack-dev-server",
     "build": "yarn run webpack",
-    "heroku-postbuild": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js"
+    "heroku-postbuild": "./node_modules/webpack/bin/webpack.js -p --progress"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
